@@ -280,7 +280,7 @@ public class AvlTree {
     }
 
     public String rankAnalysis(Member x) {
-        out = "Rank analysis result:";
+        out = "Rank Analysis result:";
         int rank = getRank(root, x, 0);
         rankAnalysis(root, 0, rank);
         out = out.concat("</br>");
